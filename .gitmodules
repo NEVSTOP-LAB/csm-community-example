@@ -18,3 +18,7 @@
 	path = csm/CSM-Utils
 	url = https://github.com/nevstop/CSM-Utils
 	branch = main
+[submodule "csm/CSM-Modsets-WaveformDisplay"]
+	path = csm/CSM-Modsets-WaveformDisplay
+	url = https://github.com/NEVSTOP-LAB/CSM-Modsets-WaveformDisplay
+	branch = main

@@ -41,3 +41,11 @@ modules:
     path: "csm/CSM-ModSets-TagRouter"
     ref: "e1d818c1e686bf0a482f09cc9dd268828dd94ba4"
     branch: "main"
+  NEVSTOP-LAB__CSM-Modsets-WaveformDisplay:
+    name: "CSM-Modsets-WaveformDisplay"
+    owner: "NEVSTOP-LAB"
+    source: "https://github.com/NEVSTOP-LAB/CSM-Modsets-WaveformDisplay"
+    method: "submodule"
+    path: "csm/CSM-Modsets-WaveformDisplay"
+    ref: "5252aa205c43be711662c8910cbc9aeda507d5ff"
+    branch: "main"
