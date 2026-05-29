@@ -1,0 +1,5 @@
+DAQ: Acquisite@Acquisition >> API: Update Waveforms@tagRouter -><register>
+API: Set TagDB >> tagdb -@ tagRouter
+API: Set TagDB >> tagdb -@ UI.Dashboard
+Data: Set Configuration >> Physical Channels: Dev1/ai0:15 -@ Acquisition
+API: Start -@ Acquisition

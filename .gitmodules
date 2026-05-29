@@ -1,0 +1,20 @@
+[submodule "csm/CSM-ModSets-DAQmx"]
+	path = csm/CSM-ModSets-DAQmx
+	url = https://github.com/NEVSTOP-LAB/CSM-ModSets-DAQmx
+	branch = main
+[submodule "csm/CSM-ModSets-SplashWindow"]
+	path = csm/CSM-ModSets-SplashWindow
+	url = https://github.com/NEVSTOP-LAB/CSM-ModSets-SplashWindow
+	branch = main
+[submodule "csm/CSM-ModSets-TagDB-UI"]
+	path = csm/CSM-ModSets-TagDB-UI
+	url = https://github.com/NEVSTOP-LAB/CSM-ModSets-TagDB-UI
+	branch = main
+[submodule "csm/CSM-ModSets-TagRouter"]
+	path = csm/CSM-ModSets-TagRouter
+	url = https://github.com/NEVSTOP-LAB/CSM-ModSets-TagRouter
+	branch = main
+[submodule "csm/CSM-Utils"]
+	path = csm/CSM-Utils
+	url = https://github.com/nevstop/CSM-Utils
+	branch = main
