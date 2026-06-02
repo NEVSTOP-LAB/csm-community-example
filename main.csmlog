@@ -1,0 +1,210 @@
+- CSM Version | 2026.4.0.0
+- PeriodicLog.Enable | 1
+- PeriodicLog.Threshold(#/s) | 2.00
+- PeriodicLog.CheckPeriod(s) | 1.00
+2026/06/02 22:15:02.090 [22:15:02.090] [Module Created] SplashWindow |  >> CSM-SplashWindow.lvlib:SplashWindow.vi:330001 > SplashWnd - Module Starting Up3.vi > main.vi
+2026/06/02 22:15:02.091 [22:15:02.090] [State Change] SplashWindow | Macro: Initialize
+2026/06/02 22:15:02.091 [22:15:02.090] [State Change] SplashWindow | Data: Initialize
+2026/06/02 22:15:02.091 [22:15:02.090] [State Change] SplashWindow | Initialize Core Data
+2026/06/02 22:15:02.091 [22:15:02.090] [State Change] SplashWindow | Data: Update Indicators
+2026/06/02 22:15:02.093 [22:15:02.092] [No-Rep Async Message] -PostMsgAPI98CB3CBC7596 | API: Update Title >> CSM Community Example ->| SplashWindow
+2026/06/02 22:15:02.093 [22:15:02.093] [State Change] SplashWindow | API: Update Title >> CSM Community Example <- -PostMsgAPI98CB3CBC7596
+2026/06/02 22:15:02.093 [22:15:02.093] [Sync Message] -SendMsgAPI9713ADE02E65 | VI Reference -@ SplashWindow
+2026/06/02 22:15:02.093 [22:15:02.093] [State Change] SplashWindow | VI Reference <- -SendMsgAPI9713ADE02E65
+2026/06/02 22:15:02.093 [22:15:02.093] [Sync Message] SplashWindow | VI Reference(Complete) -@ -SendMsgAPI9713ADE02E65
+2026/06/02 22:15:02.116 [22:15:02.116] [No-Rep Async Message] -PostMsgAPI2B1F665E2DDB | API: SplashWnd for Module Starting Up >> [Acquisition,tagRouter,UI.Dashboard,UI.Waveform] ->| SplashWindow
+2026/06/02 22:15:02.116 [22:15:02.116] [State Change] SplashWindow | API: SplashWnd for Module Starting Up >> [Acquisition,tagRouter,UI.Dashboard,UI.Waveform] <- -PostMsgAPI2B1F665E2DDB
+2026/06/02 22:15:02.117 [22:15:02.116] [Register] SplashWindow | Macro: Initialize@* >> API: Module Starting Up Handler -> <register>
+2026/06/02 22:15:03.361 [22:15:03.361] [Module Created] Acquisition |  >> ModSets-DAQmx.lvlib:Acquisition (ai DAQmx).vi > ModSets-DAQmx.lvlib:Acquisition (ai DAQmx).vi.ACBRProxyCaller.2A6000B7
+2026/06/02 22:15:03.361 [22:15:03.361] [State Change] Acquisition | Macro: Initialize
+2026/06/02 22:15:03.361 [22:15:03.361] [State Change] Acquisition | Data: Initialize
+2026/06/02 22:15:03.361 [22:15:03.361] [State Change] Acquisition | Initialize Core Data
+2026/06/02 22:15:03.416 [22:15:03.416] [State Change] Acquisition | Data: Update Indicators
+2026/06/02 22:15:03.416 [22:15:03.416] [Status] Acquisition | Macro: Initialize -> <state>
+2026/06/02 22:15:03.416 [22:15:03.416] [State Change] SplashWindow | API: Module Starting Up Handler <- Acquisition >>>> Macro: Initialize
+2026/06/02 22:15:03.417 [22:15:03.417] [State Change] SplashWindow | Action: Splash Msg >> "Acquisition" is initialized..
+2026/06/02 22:15:03.693 [22:15:03.693] [Module Created] tagRouter |  >> CSM-TagRouter.lvlib:TagRouter.vi > CSM-TagRouter.lvlib:TagRouter.vi.ACBRProxyCaller.2AE000A6
+2026/06/02 22:15:03.694 [22:15:03.693] [State Change] tagRouter | Macro: Initialize
+2026/06/02 22:15:03.694 [22:15:03.694] [State Change] tagRouter | Data: Initialize
+2026/06/02 22:15:03.694 [22:15:03.694] [State Change] tagRouter | Initialize Core Data
+2026/06/02 22:15:03.828 [22:15:03.828] [State Change] tagRouter | Data: Update Indicators
+2026/06/02 22:15:03.828 [22:15:03.828] [Status] tagRouter | Macro: Initialize -> <state>
+2026/06/02 22:15:03.829 [22:15:03.829] [State Change] SplashWindow | API: Module Starting Up Handler <- tagRouter >>>> Macro: Initialize
+2026/06/02 22:15:03.829 [22:15:03.829] [State Change] SplashWindow | Action: Splash Msg >> "tagRouter" is initialized..
+2026/06/02 22:15:04.047 [22:15:04.047] [Module Created] UI.Dashboard |  >> CSM-TagDashboard.lvlib:TagDashboard.vi > CSM-TagDashboard.lvlib:TagDashboard.vi.ACBRProxyCaller.2B6000A1
+2026/06/02 22:15:04.047 [22:15:04.047] [State Change] UI.Dashboard | Macro: Initialize
+2026/06/02 22:15:04.048 [22:15:04.048] [State Change] UI.Dashboard | Data: Initialize
+2026/06/02 22:15:04.048 [22:15:04.048] [State Change] UI.Dashboard | Initialize Core Data
+2026/06/02 22:15:04.163 [22:15:04.163] [State Change] UI.Dashboard | Data: Update Indicators
+2026/06/02 22:15:04.163 [22:15:04.163] [Status] UI.Dashboard | Macro: Initialize -> <state>
+2026/06/02 22:15:04.163 [22:15:04.163] [State Change] SplashWindow | API: Module Starting Up Handler <- UI.Dashboard >>>> Macro: Initialize
+2026/06/02 22:15:04.164 [22:15:04.164] [State Change] SplashWindow | Action: Splash Msg >> "UI.Dashboard" is initialized..
+2026/06/02 22:15:04.251 [22:15:04.251] [Module Created] UI.Waveform |  >> CSM-WaveformDisplay.lvlib:WaveformDisplay.vi:5540001 > CSM-WaveformDisplay.lvlib:WaveformDisplay.vi.ACBRProxyCaller.2BE000C9
+2026/06/02 22:15:04.251 [22:15:04.251] [State Change] UI.Waveform | Macro: Initialize
+2026/06/02 22:15:04.252 [22:15:04.252] [State Change] UI.Waveform | Data: Initialize
+2026/06/02 22:15:04.252 [22:15:04.252] [State Change] UI.Waveform | Initialize Core Data
+2026/06/02 22:15:04.253 [22:15:04.252] [State Change] UI.Waveform | Data: Update Indicators
+2026/06/02 22:15:04.253 [22:15:04.253] [Status] UI.Waveform | Macro: Initialize -> <state>
+2026/06/02 22:15:04.253 [22:15:04.253] [State Change] SplashWindow | API: Module Starting Up Handler <- UI.Waveform >>>> Macro: Initialize
+2026/06/02 22:15:04.254 [22:15:04.254] [State Change] SplashWindow | Action: Splash Msg >> "UI.Waveform" is initialized..
+2026/06/02 22:15:04.254 [22:15:04.254] [State Change] SplashWindow | Macro: Exit
+2026/06/02 22:15:04.254 [22:15:04.254] [State Change] SplashWindow | Data: Cleanup
+2026/06/02 22:15:04.254 [22:15:04.254] [State Change] SplashWindow | Exit
+2026/06/02 22:15:04.254 [22:15:04.254] [Unregister] SplashWindow | Macro: Initialize@* >> API: Module Starting Up Handler@SplashWindow(Auto Removal)
+2026/06/02 22:15:04.254 [22:15:04.254] [State Change] SplashWindow | <Remaining States> >> <Empty>
+2026/06/02 22:15:04.254 [22:15:04.254] [Module Destroyed] SplashWindow
+2026/06/02 22:15:04.298 [22:15:04.298] [Sync Message] -RunScriptAPI25686F794757 | UI: Update Label >> CSM Community Example -@ UI.Waveform
+2026/06/02 22:15:04.299 [22:15:04.299] [State Change] UI.Waveform | UI: Update Label >> CSM Community Example <- -RunScriptAPI25686F794757
+2026/06/02 22:15:04.299 [22:15:04.299] [Sync Message] UI.Waveform | UI: Update Label(Complete) >> CSM Community Example -@ -RunScriptAPI25686F794757
+2026/06/02 22:15:04.300 [22:15:04.300] [Register] tagRouter | DAQ: Acquisite@Acquisition >> API: Update Waveforms@tagRouter -> <Register>
+2026/06/02 22:15:04.300 [22:15:04.300] [Register] UI.Waveform | DAQ: Acquisite@Acquisition >> UI: Update Waveforms@UI.Waveform -> <Register>
+2026/06/02 22:15:04.300 [22:15:04.300] [Sync Message] -RunScriptAPI25686F794757 | API: Set TagDB >> tagdb -@ tagRouter
+2026/06/02 22:15:04.300 [22:15:04.300] [State Change] tagRouter | API: Set TagDB >> tagdb <- -RunScriptAPI25686F794757
+2026/06/02 22:15:04.300 [22:15:04.300] [Sync Message] tagRouter | API: Set TagDB(Complete) >> tagdb -@ -RunScriptAPI25686F794757
+2026/06/02 22:15:04.301 [22:15:04.300] [Sync Message] -RunScriptAPI25686F794757 | API: Set TagDB >> tagdb -@ UI.Dashboard
+2026/06/02 22:15:04.301 [22:15:04.301] [State Change] UI.Dashboard | API: Set TagDB >> tagdb <- -RunScriptAPI25686F794757
+2026/06/02 22:15:04.301 [22:15:04.301] [Sync Message] UI.Dashboard | API: Set TagDB(Complete) >> tagdb -@ -RunScriptAPI25686F794757
+2026/06/02 22:15:04.301 [22:15:04.301] [Sync Message] -RunScriptAPI25686F794757 | Data: Set Configuration >> Physical Channels: Dev1/ai0:15 -@ Acquisition
+2026/06/02 22:15:04.301 [22:15:04.301] [State Change] Acquisition | Data: Set Configuration >> Physical Channels: Dev1/ai0:15 <- -RunScriptAPI25686F794757
+2026/06/02 22:15:04.304 [22:15:04.304] [Sync Message] Acquisition | Data: Set Configuration(Complete) >> Physical Channels: Dev1/ai0:15 -@ -RunScriptAPI25686F794757
+2026/06/02 22:15:04.304 [22:15:04.304] [Sync Message] -SendMsgAPI9713ADE02E65 | VI Reference -@ UI.Waveform
+2026/06/02 22:15:04.304 [22:15:04.304] [State Change] UI.Waveform | VI Reference <- -SendMsgAPI9713ADE02E65
+2026/06/02 22:15:04.306 [22:15:04.306] [Sync Message] UI.Waveform | VI Reference(Complete) -@ -SendMsgAPI9713ADE02E65
+2026/06/02 22:15:04.309 [22:15:04.309] [Sync Message] -SendMsgAPI9713ADE02E65 | VI Reference -@ UI.Dashboard
+2026/06/02 22:15:04.309 [22:15:04.309] [State Change] UI.Dashboard | VI Reference <- -SendMsgAPI9713ADE02E65
+2026/06/02 22:15:04.309 [22:15:04.309] [Sync Message] UI.Dashboard | VI Reference(Complete) -@ -SendMsgAPI9713ADE02E65
+2026/06/02 22:15:05.325 [22:15:05.325] [Sync Message] -RunScriptAPI25686F794757 | API: Start -@ Acquisition
+2026/06/02 22:15:05.325 [22:15:05.325] [State Change] Acquisition | API: Start <- -RunScriptAPI25686F794757
+2026/06/02 22:15:05.325 [22:15:05.325] [Sync Message] Acquisition | API: Start(Complete) -@ -RunScriptAPI25686F794757
+2026/06/02 22:15:05.325 [22:15:05.325] [State Change] Acquisition | DAQ: Initialize
+2026/06/02 22:15:05.328 [22:15:05.327] [State Change] Acquisition | DAQ: Configure
+2026/06/02 22:15:05.328 [22:15:05.328] [State Change] Acquisition | DAQ: Start
+2026/06/02 22:15:05.337 [22:15:05.337] [State Change] Acquisition | DAQ: Acquisite
+2026/06/02 22:15:06.358 [22:15:06.358] [Status] Acquisition | DAQ: Acquisite >> <MassData>Start:0;Size:130666 -> <state>
+2026/06/02 22:15:06.358 [22:15:06.358] [State Change] Acquisition | Continuous Check >> DAQ: Acquisite <- <loop>
+2026/06/02 22:15:06.358 [22:15:06.358] [State Change] tagRouter | API: Update Waveforms >> <MassData>Start:0;Size:130666 <- Acquisition >>>> DAQ: Acquisite
+2026/06/02 22:15:06.358 [22:15:06.358] [State Change] UI.Waveform | UI: Update Waveforms >> <MassData>Start:0;Size:130666 <- Acquisition >>>> DAQ: Acquisite
+2026/06/02 22:15:06.359 [22:15:06.359] [State Change] UI.Waveform | UI: Update WaveformGraph Attributes
+2026/06/02 22:15:06.559 [22:15:06.559] [State Change] Acquisition | DAQ: Acquisite
+2026/06/02 22:15:07.347 [22:15:07.347] [Status] Acquisition | DAQ: Acquisite >> <MassData>Start:130666;Size:130666 -> <state>
+2026/06/02 22:15:07.347 [22:15:07.347] [State Change] Acquisition | Continuous Check >> DAQ: Acquisite <- <loop>
+2026/06/02 22:15:07.347 [22:15:07.347] [State Change] UI.Waveform | UI: Update Waveforms >> <MassData>Start:130666;Size:130666 <- Acquisition >>>> DAQ: Acquisite
+2026/06/02 22:15:07.347 [22:15:07.347] [State Change] tagRouter | API: Update Waveforms >> <MassData>Start:130666;Size:130666 <- Acquisition >>>> DAQ: Acquisite
+2026/06/02 22:15:07.546 [22:15:07.546] [State Change] Acquisition | DAQ: Acquisite
+2026/06/02 22:15:08.348 [22:15:08.348] [Status] Acquisition | DAQ: Acquisite >> <MassData>Start:261332;Size:130666 -> <state>
+2026/06/02 22:15:08.348 [22:15:08.348] [State Change] Acquisition | Continuous Check >> DAQ: Acquisite <- <loop>
+2026/06/02 22:15:08.349 [22:15:08.348] [State Change] tagRouter | API: Update Waveforms >> <MassData>Start:261332;Size:130666 <- Acquisition >>>> DAQ: Acquisite
+2026/06/02 22:15:08.349 [22:15:08.348] [State Change] UI.Waveform | UI: Update Waveforms >> <MassData>Start:261332;Size:130666 <- Acquisition >>>> DAQ: Acquisite
+2026/06/02 22:15:08.548 [22:15:08.548] [State Change] Acquisition | DAQ: Acquisite
+2026/06/02 22:15:09.347 [22:15:09.347] [Status] Acquisition | DAQ: Acquisite >> <MassData>Start:391998;Size:130666 -> <state>
+2026/06/02 22:15:09.348 [22:15:09.347] [State Change] UI.Waveform | UI: Update Waveforms >> <MassData>Start:391998;Size:130666 <- Acquisition >>>> DAQ: Acquisite
+2026/06/02 22:15:09.348 [22:15:09.348] [State Change] Acquisition | Continuous Check >> DAQ: Acquisite <- <loop>
+2026/06/02 22:15:09.348 [22:15:09.348] [State Change] tagRouter | API: Update Waveforms >> <MassData>Start:391998;Size:130666 <- Acquisition >>>> DAQ: Acquisite
+2026/06/02 22:15:09.548 [22:15:09.548] [State Change] Acquisition | DAQ: Acquisite
+2026/06/02 22:15:10.347 [22:15:10.347] [Status] Acquisition | DAQ: Acquisite >> <MassData>Start:522664;Size:130666 -> <state>
+2026/06/02 22:15:10.347 [22:15:10.347] [State Change] Acquisition | Continuous Check >> DAQ: Acquisite <- <loop>
+2026/06/02 22:15:10.347 [22:15:10.347] [State Change] tagRouter | API: Update Waveforms >> <MassData>Start:522664;Size:130666 <- Acquisition >>>> DAQ: Acquisite
+2026/06/02 22:15:10.347 [22:15:10.347] [State Change] UI.Waveform | UI: Update Waveforms >> <MassData>Start:522664;Size:130666 <- Acquisition >>>> DAQ: Acquisite
+2026/06/02 22:15:10.547 [22:15:10.547] [State Change] Acquisition | DAQ: Acquisite
+2026/06/02 22:15:11.343 [22:15:11.343] [Status] Acquisition | DAQ: Acquisite >> <MassData>Start:653330;Size:130666 -> <state>
+2026/06/02 22:15:11.343 [22:15:11.343] [State Change] Acquisition | Continuous Check >> DAQ: Acquisite <- <loop>
+2026/06/02 22:15:11.343 [22:15:11.343] [State Change] UI.Waveform | UI: Update Waveforms >> <MassData>Start:653330;Size:130666 <- Acquisition >>>> DAQ: Acquisite
+2026/06/02 22:15:11.343 [22:15:11.343] [State Change] tagRouter | API: Update Waveforms >> <MassData>Start:653330;Size:130666 <- Acquisition >>>> DAQ: Acquisite
+2026/06/02 22:15:11.543 [22:15:11.543] [State Change] Acquisition | DAQ: Acquisite
+2026/06/02 22:15:11.968 [22:15:11.968] [Sync Message] -RunScriptAPI25686F794757 | API: Stop -@ Acquisition
+2026/06/02 22:15:12.345 [22:15:12.345] [State Change] Acquisition | API: Stop <- -RunScriptAPI25686F794757
+2026/06/02 22:15:12.345 [22:15:12.345] [State Change] Acquisition | Break Continuous
+2026/06/02 22:15:12.345 [22:15:12.345] [Sync Message] Acquisition | API: Stop(Complete) -@ -RunScriptAPI25686F794757
+2026/06/02 22:15:12.345 [22:15:12.345] [Status] Acquisition | DAQ: Acquisite -> <state>
+2026/06/02 22:15:12.345 [22:15:12.345] [State Change] Acquisition | DAQ: Stop
+2026/06/02 22:15:12.345 [22:15:12.345] [State Change] tagRouter | API: Update Waveforms <- Acquisition >>>> DAQ: Acquisite
+2026/06/02 22:15:12.345 [22:15:12.345] [State Change] UI.Waveform | UI: Update Waveforms <- Acquisition >>>> DAQ: Acquisite
+2026/06/02 22:15:12.346 [22:15:12.346] [State Change] UI.Waveform | UI: Update WaveformGraph Attributes
+2026/06/02 22:15:12.354 [22:15:12.354] [State Change] Acquisition | DAQ: Close <- <end>
+2026/06/02 22:15:14.201 [22:15:14.201] [Sync Message] -RunScriptAPI25686F794757 | API: Start -@ Acquisition
+2026/06/02 22:15:14.201 [22:15:14.201] [State Change] Acquisition | API: Start <- -RunScriptAPI25686F794757
+2026/06/02 22:15:14.201 [22:15:14.201] [Sync Message] Acquisition | API: Start(Complete) -@ -RunScriptAPI25686F794757
+2026/06/02 22:15:14.201 [22:15:14.201] [State Change] Acquisition | DAQ: Initialize
+2026/06/02 22:15:14.203 [22:15:14.203] [State Change] Acquisition | DAQ: Configure
+2026/06/02 22:15:14.204 [22:15:14.204] [State Change] Acquisition | DAQ: Start
+2026/06/02 22:15:14.213 [22:15:14.213] [State Change] Acquisition | DAQ: Acquisite
+2026/06/02 22:15:15.215 [22:15:15.215] [Status] Acquisition | DAQ: Acquisite >> <MassData>Start:914662;Size:130666 -> <state>
+2026/06/02 22:15:15.215 [22:15:15.215] [State Change] Acquisition | Continuous Check >> DAQ: Acquisite <- <loop>
+2026/06/02 22:15:15.215 [22:15:15.215] [State Change] tagRouter | API: Update Waveforms >> <MassData>Start:914662;Size:130666 <- Acquisition >>>> DAQ: Acquisite
+2026/06/02 22:15:15.215 [22:15:15.215] [State Change] UI.Waveform | UI: Update Waveforms >> <MassData>Start:914662;Size:130666 <- Acquisition >>>> DAQ: Acquisite
+2026/06/02 22:15:15.216 [22:15:15.216] [State Change] UI.Waveform | UI: Update WaveformGraph Attributes
+2026/06/02 22:15:15.414 [22:15:15.414] [State Change] Acquisition | DAQ: Acquisite
+2026/06/02 22:15:16.215 [22:15:16.215] [Status] Acquisition | DAQ: Acquisite >> <MassData>Start:1045328;Size:130666 -> <state>
+2026/06/02 22:15:16.215 [22:15:16.215] [State Change] Acquisition | Continuous Check >> DAQ: Acquisite <- <loop>
+2026/06/02 22:15:16.216 [22:15:16.215] [State Change] tagRouter | API: Update Waveforms >> <MassData>Start:1045328;Size:130666 <- Acquisition >>>> DAQ: Acquisite
+2026/06/02 22:15:16.216 [22:15:16.216] [State Change] UI.Waveform | UI: Update Waveforms >> <MassData>Start:1045328;Size:130666 <- Acquisition >>>> DAQ: Acquisite
+2026/06/02 22:15:16.416 [22:15:16.416] [State Change] Acquisition | DAQ: Acquisite
+2026/06/02 22:15:17.215 [22:15:17.215] [Status] Acquisition | DAQ: Acquisite >> <MassData>Start:1175994;Size:130666 -> <state>
+2026/06/02 22:15:17.216 [22:15:17.215] [State Change] Acquisition | Continuous Check >> DAQ: Acquisite <- <loop>
+2026/06/02 22:15:17.216 [22:15:17.215] [State Change] tagRouter | API: Update Waveforms >> <MassData>Start:1175994;Size:130666 <- Acquisition >>>> DAQ: Acquisite
+2026/06/02 22:15:17.216 [22:15:17.216] [State Change] UI.Waveform | UI: Update Waveforms >> <MassData>Start:1175994;Size:130666 <- Acquisition >>>> DAQ: Acquisite
+2026/06/02 22:15:17.416 [22:15:17.416] [State Change] Acquisition | DAQ: Acquisite
+2026/06/02 22:15:18.216 [22:15:18.216] [Status] Acquisition | DAQ: Acquisite >> <MassData>Start:1306660;Size:130666 -> <state>
+2026/06/02 22:15:18.216 [22:15:18.216] [State Change] Acquisition | Continuous Check >> DAQ: Acquisite <- <loop>
+2026/06/02 22:15:18.216 [22:15:18.216] [State Change] tagRouter | API: Update Waveforms >> <MassData>Start:1306660;Size:130666 <- Acquisition >>>> DAQ: Acquisite
+2026/06/02 22:15:18.216 [22:15:18.216] [State Change] UI.Waveform | UI: Update Waveforms >> <MassData>Start:1306660;Size:130666 <- Acquisition >>>> DAQ: Acquisite
+2026/06/02 22:15:18.417 [22:15:18.417] [State Change] Acquisition | DAQ: Acquisite
+2026/06/02 22:15:19.216 [22:15:19.216] [Status] Acquisition | DAQ: Acquisite >> <MassData>Start:1437326;Size:130666 -> <state>
+2026/06/02 22:15:19.216 [22:15:19.216] [State Change] Acquisition | Continuous Check >> DAQ: Acquisite <- <loop>
+2026/06/02 22:15:19.216 [22:15:19.216] [State Change] UI.Waveform | UI: Update Waveforms >> <MassData>Start:1437326;Size:130666 <- Acquisition >>>> DAQ: Acquisite
+2026/06/02 22:15:19.216 [22:15:19.216] [State Change] tagRouter | API: Update Waveforms >> <MassData>Start:1437326;Size:130666 <- Acquisition >>>> DAQ: Acquisite
+2026/06/02 22:15:19.416 [22:15:19.416] [State Change] Acquisition | DAQ: Acquisite
+2026/06/02 22:15:20.220 [22:15:20.220] [Status] Acquisition | DAQ: Acquisite >> <MassData>Start:1567992;Size:130666 -> <state>
+2026/06/02 22:15:20.220 [22:15:20.220] [State Change] Acquisition | Continuous Check >> DAQ: Acquisite <- <loop>
+2026/06/02 22:15:20.220 [22:15:20.220] [State Change] tagRouter | API: Update Waveforms >> <MassData>Start:1567992;Size:130666 <- Acquisition >>>> DAQ: Acquisite
+2026/06/02 22:15:20.220 [22:15:20.220] [State Change] UI.Waveform | UI: Update Waveforms >> <MassData>Start:1567992;Size:130666 <- Acquisition >>>> DAQ: Acquisite
+2026/06/02 22:15:20.421 [22:15:20.421] [State Change] Acquisition | DAQ: Acquisite
+2026/06/02 22:15:21.220 [22:15:21.220] [Status] Acquisition | DAQ: Acquisite >> <MassData>Start:1698658;Size:130666 -> <state>
+2026/06/02 22:15:21.220 [22:15:21.220] [State Change] Acquisition | Continuous Check >> DAQ: Acquisite <- <loop>
+2026/06/02 22:15:21.220 [22:15:21.220] [State Change] tagRouter | API: Update Waveforms >> <MassData>Start:1698658;Size:130666 <- Acquisition >>>> DAQ: Acquisite
+2026/06/02 22:15:21.220 [22:15:21.220] [State Change] UI.Waveform | UI: Update Waveforms >> <MassData>Start:1698658;Size:130666 <- Acquisition >>>> DAQ: Acquisite
+2026/06/02 22:15:21.419 [22:15:21.419] [State Change] Acquisition | DAQ: Acquisite
+2026/06/02 22:15:22.221 [22:15:22.221] [Status] Acquisition | DAQ: Acquisite >> <MassData>Start:1829324;Size:130666 -> <state>
+2026/06/02 22:15:22.221 [22:15:22.221] [State Change] Acquisition | Continuous Check >> DAQ: Acquisite <- <loop>
+2026/06/02 22:15:22.221 [22:15:22.221] [State Change] tagRouter | API: Update Waveforms >> <MassData>Start:1829324;Size:130666 <- Acquisition >>>> DAQ: Acquisite
+2026/06/02 22:15:22.221 [22:15:22.221] [State Change] UI.Waveform | UI: Update Waveforms >> <MassData>Start:1829324;Size:130666 <- Acquisition >>>> DAQ: Acquisite
+2026/06/02 22:15:22.421 [22:15:22.421] [State Change] Acquisition | DAQ: Acquisite
+2026/06/02 22:15:23.225 [22:15:23.225] [Status] Acquisition | DAQ: Acquisite >> <MassData>Start:1959990;Size:130666 -> <state>
+2026/06/02 22:15:23.225 [22:15:23.225] [State Change] Acquisition | Continuous Check >> DAQ: Acquisite <- <loop>
+2026/06/02 22:15:23.225 [22:15:23.225] [State Change] tagRouter | API: Update Waveforms >> <MassData>Start:1959990;Size:130666 <- Acquisition >>>> DAQ: Acquisite
+2026/06/02 22:15:23.225 [22:15:23.225] [State Change] UI.Waveform | UI: Update Waveforms >> <MassData>Start:1959990;Size:130666 <- Acquisition >>>> DAQ: Acquisite
+2026/06/02 22:15:23.424 [22:15:23.424] [State Change] Acquisition | DAQ: Acquisite
+2026/06/02 22:15:23.650 [22:15:23.650] [Sync Message] -RunScriptAPI6D2E20F6B5EC | Macro: Exit -@ Acquisition
+2026/06/02 22:15:24.215 [22:15:24.215] [Sync Message] Acquisition | Macro: Exit(Complete) -@ -RunScriptAPI6D2E20F6B5EC
+2026/06/02 22:15:24.215 [22:15:24.215] [Status] Acquisition | DAQ: Acquisite >> <MassData>Start:2090656;Size:130666 -> <state>
+2026/06/02 22:15:24.215 [22:15:24.215] [Sync Message] -RunScriptAPI6D2E20F6B5EC | Macro: Exit -@ tagRouter
+2026/06/02 22:15:24.215 [22:15:24.215] [State Change] Acquisition | DAQ: Stop
+2026/06/02 22:15:24.215 [22:15:24.215] [State Change] tagRouter | API: Update Waveforms >> <MassData>Start:2090656;Size:130666 <- Acquisition >>>> DAQ: Acquisite
+2026/06/02 22:15:24.215 [22:15:24.215] [State Change] UI.Waveform | UI: Update Waveforms >> <MassData>Start:2090656;Size:130666 <- Acquisition >>>> DAQ: Acquisite
+2026/06/02 22:15:24.216 [22:15:24.216] [State Change] tagRouter | Macro: Exit <- -RunScriptAPI6D2E20F6B5EC
+2026/06/02 22:15:24.216 [22:15:24.216] [State Change] tagRouter | Data: Cleanup
+2026/06/02 22:15:24.216 [22:15:24.216] [State Change] tagRouter | Exit
+2026/06/02 22:15:24.216 [22:15:24.216] [Sync Message] tagRouter | Macro: Exit(Complete) -@ -RunScriptAPI6D2E20F6B5EC
+2026/06/02 22:15:24.216 [22:15:24.216] [State Change] tagRouter | <Remaining States> >> <Empty>
+2026/06/02 22:15:24.216 [22:15:24.216] [Module Destroyed] tagRouter
+2026/06/02 22:15:24.216 [22:15:24.216] [Sync Message] -RunScriptAPI6D2E20F6B5EC | Macro: Exit -@ UI.Dashboard
+2026/06/02 22:15:24.217 [22:15:24.216] [State Change] UI.Dashboard | Macro: Exit <- -RunScriptAPI6D2E20F6B5EC
+2026/06/02 22:15:24.217 [22:15:24.217] [State Change] UI.Dashboard | Data: Cleanup
+2026/06/02 22:15:24.224 [22:15:24.224] [State Change] Acquisition | DAQ: Close <- <end>
+2026/06/02 22:15:24.225 [22:15:24.225] [State Change] Acquisition | Macro: Exit <- -RunScriptAPI6D2E20F6B5EC
+2026/06/02 22:15:24.225 [22:15:24.225] [State Change] Acquisition | Data: Cleanup
+2026/06/02 22:15:24.293 [22:15:24.293] [State Change] Acquisition | Exit
+2026/06/02 22:15:24.294 [22:15:24.293] [State Change] UI.Dashboard | Exit
+2026/06/02 22:15:24.294 [22:15:24.294] [State Change] Acquisition | <Remaining States> >> <Empty>
+2026/06/02 22:15:24.294 [22:15:24.294] [Module Destroyed] Acquisition
+2026/06/02 22:15:24.294 [22:15:24.294] [Sync Message] UI.Dashboard | Macro: Exit(Complete) -@ -RunScriptAPI6D2E20F6B5EC
+2026/06/02 22:15:24.294 [22:15:24.294] [State Change] UI.Dashboard | <Remaining States> >> <Empty>
+2026/06/02 22:15:24.294 [22:15:24.294] [Module Destroyed] UI.Dashboard
+2026/06/02 22:15:24.294 [22:15:24.294] [Sync Message] -RunScriptAPI6D2E20F6B5EC | Macro: Exit -@ UI.Waveform
+2026/06/02 22:15:24.294 [22:15:24.294] [State Change] UI.Waveform | Macro: Exit <- -RunScriptAPI6D2E20F6B5EC
+2026/06/02 22:15:24.295 [22:15:24.295] [State Change] UI.Waveform | Data: Cleanup
+2026/06/02 22:15:24.303 [22:15:24.303] [State Change] UI.Waveform | Exit
+2026/06/02 22:15:24.303 [22:15:24.303] [Sync Message] UI.Waveform | Macro: Exit(Complete) -@ -RunScriptAPI6D2E20F6B5EC
+2026/06/02 22:15:24.303 [22:15:24.303] [State Change] UI.Waveform | <Remaining States> >> <Empty>
+2026/06/02 22:15:24.303 [22:15:24.303] [Module Destroyed] UI.Waveform
+2026/06/02 22:15:24.705 <Logger Thread Exit> 0 logs are still in the queue.
