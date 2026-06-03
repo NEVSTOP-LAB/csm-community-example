@@ -1,7 +1,7 @@
 UI: Update Label >> CSM Community Example -@ UI.Waveform
-DAQ: Acquisite@Acquisition >> API: Update Waveforms@tagRouter -><register>
-DAQ: Acquisite@Acquisition >>  UI: Update Waveforms@UI.Waveform -><register>
+Acquired Waveform@Acquisition >> API: Update Waveforms@tagRouter -><register>
+Acquired Waveform@Acquisition >>  UI: Update Waveforms@UI.Waveform -><register>
 API: Set TagDB >> tagdb -@ tagRouter
 API: Set TagDB >> tagdb -@ UI.Dashboard
-Data: Set Configuration >> Physical Channels: Dev1/ai0:15 -@ Acquisition
+//Data: Set Configuration >> Physical Channels: Dev1/ai0:15 -@ Acquisition
 //API: Start -@ Acquisition

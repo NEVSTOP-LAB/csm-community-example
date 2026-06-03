@@ -1,7 +1,3 @@
-[submodule "csm/CSM-ModSets-DAQmx"]
-	path = csm/CSM-ModSets-DAQmx
-	url = https://github.com/NEVSTOP-LAB/CSM-ModSets-DAQmx
-	branch = main
 [submodule "csm/CSM-ModSets-SplashWindow"]
 	path = csm/CSM-ModSets-SplashWindow
 	url = https://github.com/NEVSTOP-LAB/CSM-ModSets-SplashWindow
@@ -21,4 +17,8 @@
 [submodule "csm/CSM-Modsets-WaveformDisplay"]
 	path = csm/CSM-Modsets-WaveformDisplay
 	url = https://github.com/NEVSTOP-LAB/CSM-Modsets-WaveformDisplay
+	branch = main
+[submodule "csm/CSM-Modsets-SimWaveform"]
+	path = csm/CSM-Modsets-SimWaveform
+	url = https://github.com/nevstop/CSM-Modsets-SimWaveform
 	branch = main

@@ -2,3 +2,5 @@
 *.lvlps
 *.lvcsm
 *.zip
+*.csmlog
+/*.csmlog
