@@ -7,7 +7,7 @@ modules:
     source: "https://github.com/nevstop/CSM-Modsets-SimWaveform"
     method: "submodule"
     path: "csm/CSM-Modsets-SimWaveform"
-    ref: "3884d1f4991e5de7c736b09e2db8daec86305dd5"
+    ref: "4f9829005ef8f5b3181d8910cffd659e42751b2c"
     branch: "main"
     locked: false
     labviewVersion: "lv2020"
@@ -25,9 +25,9 @@ modules:
     name: "CSM-ModSets-SplashWindow"
     owner: "NEVSTOP-LAB"
     source: "https://github.com/NEVSTOP-LAB/CSM-ModSets-SplashWindow"
-    method: "copy"
+    method: "submodule"
     path: "csm/CSM-ModSets-SplashWindow"
-    ref: "f14d506125aa7c678b70fe089536399600cd9d00"
+    ref: "f40e62c7edbf0b7c2e754d22f0a70bca210d7852"
     branch: "main"
     locked: false
     labviewVersion: "lv2020"
@@ -37,8 +37,8 @@ modules:
     source: "https://github.com/NEVSTOP-LAB/CSM-ModSets-TagDB-UI"
     method: "submodule"
     path: "csm/CSM-ModSets-TagDB-UI"
-    ref: "e8c667627b69d5a8168a27c5b63680a8d9f93006"
-    branch: "main"
+    ref: "048fbe96f01ae8b2c8c9593480e222b730a44c40"
+    branch: "feat/complete_mod"
     locked: false
     labviewVersion: "lv2020"
   NEVSTOP-LAB__CSM-ModSets-TagRouter:
@@ -47,7 +47,7 @@ modules:
     source: "https://github.com/NEVSTOP-LAB/CSM-ModSets-TagRouter"
     method: "submodule"
     path: "csm/CSM-ModSets-TagRouter"
-    ref: "e1d818c1e686bf0a482f09cc9dd268828dd94ba4"
+    ref: "87f7f3bdd63d817b767d7adb6afdac6be9183dbf"
     branch: "main"
     locked: false
     labviewVersion: "lv2020"
@@ -57,7 +57,7 @@ modules:
     source: "https://github.com/NEVSTOP-LAB/CSM-Modsets-WaveformDisplay"
     method: "submodule"
     path: "csm/CSM-Modsets-WaveformDisplay"
-    ref: "5252aa205c43be711662c8910cbc9aeda507d5ff"
+    ref: "306ba6e471e9504437c21b17730e64c29714d471"
     branch: "main"
     locked: false
     labviewVersion: "lv2020"
