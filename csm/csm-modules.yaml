@@ -9,7 +9,7 @@ modules:
     path: "csm/CSM-Modsets-SimWaveform"
     ref: "3884d1f4991e5de7c736b09e2db8daec86305dd5"
     branch: "main"
-    locked: true
+    locked: false
     labviewVersion: "lv2020"
   nevstop__CSM-Utils:
     name: "CSM-Utils"
@@ -19,7 +19,7 @@ modules:
     path: "csm/CSM-Utils"
     ref: "d8c3be4a603227a0c4c53bc38b19803c3757b43a"
     branch: "main"
-    locked: true
+    locked: false
     labviewVersion: "lv2020"
   NEVSTOP-LAB__CSM-ModSets-SplashWindow:
     name: "CSM-ModSets-SplashWindow"
@@ -29,7 +29,7 @@ modules:
     path: "csm/CSM-ModSets-SplashWindow"
     ref: "f14d506125aa7c678b70fe089536399600cd9d00"
     branch: "main"
-    locked: true
+    locked: false
     labviewVersion: "lv2020"
   NEVSTOP-LAB__CSM-ModSets-TagDB-UI:
     name: "CSM-ModSets-TagDB-UI"
@@ -39,7 +39,7 @@ modules:
     path: "csm/CSM-ModSets-TagDB-UI"
     ref: "e8c667627b69d5a8168a27c5b63680a8d9f93006"
     branch: "main"
-    locked: true
+    locked: false
     labviewVersion: "lv2020"
   NEVSTOP-LAB__CSM-ModSets-TagRouter:
     name: "CSM-ModSets-TagRouter"
@@ -49,7 +49,7 @@ modules:
     path: "csm/CSM-ModSets-TagRouter"
     ref: "e1d818c1e686bf0a482f09cc9dd268828dd94ba4"
     branch: "main"
-    locked: true
+    locked: false
     labviewVersion: "lv2020"
   NEVSTOP-LAB__CSM-Modsets-WaveformDisplay:
     name: "CSM-Modsets-WaveformDisplay"
